@@ -1,0 +1,134 @@
+
+/*font @ 해서 할것*/
+/* 부트스트랩 */
+
+
+html{
+  font-size: 16px; scroll-behavior: smooth;
+}
+
+body {
+  font-family: "대표폰트명", Arial, sans-serif;
+  font-size: 16px;
+}
+.hidden, #skipNav{position: absolute; display: block;width:1px; height: 1px;
+    left:-1000%; top:0; overflow: hidden; color: #fff;}
+
+     
+  
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+/* @font-face{
+font-family:'NanumBarunGothic';
+src:url("../fonts/NanumBarunGothic.eot");
+src:local("☺"),url("../fonts/NanumBarunGothic.woff") format("woff");
+} */
+a:hover { text-decoration: none;}      
+body {font-family: "NanumBarunGothic",  sans-serif; padding-top: 90px; }  
+.container-fluid { padding: 0;}
+/* nav bar customize */
+.navbar{ background-color: #fff; border: none; padding-bottom: 10px;  font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 18px;height: 90px; text-transform: capitalize; border-bottom: 1px solid #AAAAAA}
+
+.navbar-toggle {position: relative;margin-top: 24px;top: 2px;}
+.navbar-nav { padding-right: 0px;margin-top: 20px; background-color: rgb(0, 0, 0)}
+.navbar-nav li { margin:0 20px;color: #adadad; font-weight: bold; }
+.navbar-brand { padding-left: 20px;}  
+.navbar-collapse { padding-top: 0px; background-color: rgb(0, 0, 0) ; border-color: #000;}
+.navbar-default .navbar-nav>li>a:hover { color: #ffffff; font-weight: bold;} 
+.navbar-default .navbar-nav>li.active>a,
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li.active>a:focus
+{ color: #ffffff; background-color: #fff} 
+
+.control { position: inherit; top: 50%; z-index: 5; display: inline-block; right: 50%;} 
+@media (max-width: 320px)  {
+  /* .navbar-brand img { width: 80%; height: auto; margin-top:-100px}   */
+}
+@media (max-width: 991px) {
+  .navbar-nav li {margin:0 2px; }
+}
+
+.swiper_btn { top: 20px }
+.swiper-pagination {position: absolute; top: 20px;}
+
+
+#sec02 .bg_fix{ font-weight: 400; font-size: 90px; padding:100px 0 100px; margin-bottom:0px; background: url(../images/sec01_03.jpg) center no-repeat; background-size: cover; background-attachment: fixed; color: #fff; 
+margin-top: 50px; text-align: center;}
+
+
+#sec01 {width: 90%;}
+#sec01 .title { text-align: center; margin: 180px 0 150px;}
+#sec01 .title h3 {font-size: 40px; padding-bottom: 20px; }
+#sec01 .title .code {font-size: 20px; font-style: italic; font-weight: bold;}
+#sec01 .imges>img {margin-bottom: 20px; }
+
+#sec02 { width: 100%; background-color: rgba(181, 183, 196 , 0); margin-top: 150px; margin-bottom: 150px;}
+#sec02 .title { text-align: center; margin: 100px 0 80px; }
+#sec02 .title h3 {font-size: 40px;}
+#sec02 .title p { padding: 20px;}
+#sec02 p { text-align: center; padding: 50px ;}
+#sec02 .row .imgs {text-align: center;}
+
+#sec03 {width: 100%;} 
+#sec03 .title { text-align: center; margin: 100px 0 80px; }
+#sec03 .title h3 {font-size: 40px;}
+#sec03 .title p { padding: 20px;}
+#sec03 .flex_modal  {list-style-type: none;}
+#sec03 .flex_modal .modal_img {margin: 20px;}
+#sec03 .flex_modal .modal_img p {font-size: 40px; position: absolute; top :15%; color: #fff; margin-left: 20px; font-weight: bold; }
+
+#sec03 .modal_comment {padding: 50px 20px 80px;}
+#sec03 .modal-body {margin-bottom: 150px;}
+
+
+#sec04 {margin-bottom: 200px; width: 90%;}
+#sec04 .title { text-align: center; margin: 100px 0 80px; }
+#sec04 .title h3 {font-size: 40px;}
+#sec04 .title p { padding: 20px; margin-bottom: 60px;}
+#sec04 .swiper-container .swiper-wrapper .swiper-slide img {width: 100%;}
+
+
+#footerArea .topMove {position: relative ;}
+#footerArea .topMove a {position: absolute ;bottom:12px; left: 50%; margin-left:  -45px ; width: 90px ;height:45px;  border-radius: 100px 100px 0 0;
+    background:rgba(0,0,0); }
+    #footerArea .topMove a>p {padding: 20px 0 0 30px; color: rgb(209, 209, 209); font-weight: bold;}
+#footerArea {width: 100%; background-color: black; padding: 20px 0 50px;}
+#footerArea .text-center {font-size: 18px; color: rgb(202, 202, 202);}
+#footerArea .text-center span {font-size: 15px; color: rgb(133, 133, 133); padding: 10px; display: block; }
+#footerArea .sns {display: flex;flex-wrap: nowrap; width: 300px; margin: 20px auto;  list-style: none;  text-align: center;}
+#footerArea .sns img {width: 100%; opacity: .7;}
+#footerArea .sns li  {margin: 0 5px; }
+
+/* #sec03 .flex_modal {display: flex;} */
+
+/* 와이드 pc */
+
+.navbar-brand {position: absolute; left: 10px; top: 10px;}
+
+#navbar-scroll {background-color: rgb(0, 0, 0);}
+
+
+
+
+
+/* 일반pc */
+@media screen and (max-width:1199px) {
+ 
+}
+
+/* 테블릿 */
+@media screen and (max-width:991px) {
+  #sec03 .flex_modal .modal_img p  {font-size: 30px;}
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:767px) {
+  .navbar-brand { padding-left: 5px; } 
+  .navbar-brand>img {width: 80%;}
+  #sec03 .flex_modal .modal_img p  {font-size: 30px;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+}
