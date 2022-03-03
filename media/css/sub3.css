@@ -1,0 +1,96 @@
+
+	
+/* 와이드 pc */
+
+
+#content:nth-of-type(1) {  font-family: 'IM Fell DW Pica SC', serif;font-weight: 200; text-transform: uppercase; 
+    width:100%;  background:rgba(0, 0, 0 , 0.6);  backdrop-filter: blur(8px); color: rgb(255, 255, 255);}
+#content .gal01  { border-top: 2px solid; border-image: linear-gradient(to right, #c2a983, #6b5a40, #c2a983);
+    border-image-slice: 1;}
+#content .gal01 h3 {padding-top: 100px ; text-align: center; font-size: 3rem;}
+#content .gal01 .sub {padding: 10px 0 60px ; margin: 0 5%; text-align: center;}
+
+#content .gal01 .wrap {border-top: 2px ; color: rgba(255, 255, 255, .7); border-bottom: 2px ; color: rgba(255, 255, 255, .5);  }
+
+
+#content .gal01 .bar { background: url(../images/sub3_md.png) no-repeat center;  height:150px;  width: 100%; text-align: center; display: cover ; box-shadow: 0 5px 5px rgba(0, 0, 0, .4); border-bottom:2px solid;  border-top: 2px solid; border-image: linear-gradient(to right, #c2a983, #6b5a40, #c2a983);
+    border-image-slice: 1; }
+#content .gal01 .bar img {width: 250px; padding: 20px; } 
+
+
+
+
+#content .gal02 .wrap  {width: 100%;  background-color: rgba(0, 0, 0, .5) ;}
+#content .gal02  h3 {padding-top: 100px ; text-align: center; font-size: 3rem;}
+#content .gal02  .sub{padding: 10px 0 60px ; margin: 0 5%; text-align: center;}
+.clear {clear: both; padding-bottom: 0}
+
+
+/* 
+#content .details .wrap .grid { display: flex; flex-wrap: nowrap; width: 100%; border-top: 1px solid rgb(190, 190, 190); border-bottom: 1px solid rgb(190, 190, 190);  margin: 0 auto; font-size: 1.1rem; margin-bottom: 50px;} */
+
+/*sample */
+
+.grid-image-item,.grid--images .grid-sizer { width: 20%;}
+.grid-image-item {
+  float: left; margin-bottom: 10px
+}
+
+.grid-image-item img{
+    border-radius: 3%;
+  display: block;
+    width: 96%;margin: 10px auto;
+}
+.grid-image-item h4{
+  display: block;
+    width: 96%;text-align: center;margin: 0 auto;
+}
+.grid-image-item p{
+  display: block;
+  width: 96%;text-align: center;margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------*/
+
+@media screen and (max-width:1024px) {
+    
+  .grid-image-item,
+.grid--images .grid-sizer { width: 25%;}
+
+}
+
+@media screen and (max-width:767px) {
+     .grid-image-item,
+.grid--images .grid-sizer {width: 33.33%;}
+}
+
+@media screen and (max-width:480px){
+    .grid-image-item,
+.grid--images .grid-sizer {width: 50%;}
+}
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   	
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+  	
+}
+
+

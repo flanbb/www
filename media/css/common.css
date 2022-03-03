@@ -1,0 +1,118 @@
+
+
+
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+html{ font-size: 16px; } 
+/*rem단위쓰려면  html에 맞출것*/
+body {font-family:'돋움', Dotum; font-size:14px; color:#333;} 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:rgb(248, 248, 248);text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display: block; position: absolute; left:-1000%; top:0; width: 1px; height: 1px;
+    overflow: hidden; color: #fff;}
+
+/* 헤더 공통 영역 */
+#wrap{width:100%; overflow: hidden}
+#headerArea{position:fixed; z-index: 30; height: 80px;
+    background: rgba(0,0,0,.8); left:0; top: 0;
+    width: 100% ;background:rgba(0, 0, 0, 0.9);  backdrop-filter: blur(2px); color: rgb(255, 255, 255);}	
+#headerArea	.headerInner{width: 100%; 
+     overflow: hidden ; }
+#headerArea h1{ float: left; margin-top: 11px ; margin-left: 10px; }
+#headerArea h1 a{background: url(../images/logo_roit_r.png) no-repeat;width: 170px;height: 57px;
+    display: block;text-indent: -1000px;overflow: hidden;} 
+#headerArea h1 a img{width: 100%;}
+
+
+#headerArea #gnb{float: right;margin-top: 17px}
+#headerArea #gnb ul{overflow: hidden; font-size:30px ; font-family: 'IM Fell DW Pica SC';font-weight:400;}
+#headerArea #gnb ul li{float: left; margin-right: 35px;}
+#headerArea #gnb ul li a{color: #fff; text-decoration: none}
+#headerArea #gnb ul li a:hover{text-shadow: 0 10 10px rgba(185, 172, 114, 0.89);}
+#headerArea #gnb .menu_btn {display:none; position: absolute; right: 15px; top: 17px; }
+#headerArea #gnb .menu_btn img {width: 60px;}
+
+/* 푸터 공통 영역 */
+#footerArea {background:rgba(30, 30, 30, 0.3);  backdrop-filter: blur(5px); color: rgb(255, 255, 255); height: 450px;
+border-top: 2px solid;  border-image: linear-gradient(to right, #c2a983, #6d583a, #c2a983, #463925); border-image-slice: 1; }
+
+#footerArea .topMove {position: relative ;}
+#footerArea .topMove a {position: absolute ; top:0px; left: 50%; margin-left:  -95px ; width: 180px ;height:90px;  border-radius: 0 0 100px 100px;
+    background:rgba(167, 167, 167, .3); }
+/* #footerArea .topMove a {position: absolute ; bottom:0px; left: 50%; margin-left:  -95px ; width: 180px ;height:90px;  border-radius: 100px 100px 0 0;
+    background:rgba(34, 34, 34, 0.7); } */
+#footerArea .topMove img { padding: 10px 0 0 50px;   width : 80px  }
+
+#footerArea .logos {display: flex; flex-wrap: nowrap;  margin: 0 auto; width: 250px; margin-top: 120px; }
+#footerArea .logos img {width: 100%;opacity: .7;  }
+#footerArea .logos li:nth-of-type(1)  {margin-right: 30px; }
+
+#footerArea .sns {display: flex;flex-wrap: nowrap; width: 230px; margin: 0 auto;  margin-top: 20px;}
+#footerArea .sns img {width: 100%; opacity: .7;}
+#footerArea .sns li  {margin: 0 5px; }
+
+#footerArea .text p{ text-align: center;font-family: 'IM Fell DW Pica SC';font-weight:400;  font-size: 20px; color: #8a8a8a;}
+#footerArea .text p:nth-of-type(1) {margin-top: 40px;}
+#footerArea .text p:nth-of-type(2) {margin-top: 25px;}
+
+
+
+
+/* font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=IM+Fell+DW+Pica+SC&display=swap');
+
+/*  
+font-family: 'Cinzel', serif; 400 600 
+font-family: 'IM Fell DW Pica SC', serif; 400 
+  */
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    #headerArea #gnb ul li a{display:block;  font-size: 30px; }
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    
+    #headerArea	{  background: rgba(0,0,0,.9);}
+    #headerArea	.headerInner{width: 100%;}
+    #headerArea #gnb{float:none;}
+    #headerArea #gnb ul.menu {width: 100%; display: none;  margin-top: 68px; padding-bottom: 50px; background-color: rgba(0, 0, 0, 0.5);}
+
+    #headerArea #gnb ul li{float: none; text-align: right; }
+    #headerArea #gnb ul li a{display:block; margin-right:5px; margin-top: 18px; height:40px;  }
+    #headerArea #gnb .menu_btn {display: block;  }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #headerArea h1{float: left; }
+	#headerArea h1 a img {width:80%;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #headerArea h1{float: left;}
+	#headerArea h1 a img {width:50%;}
+    #headerArea #gnb ul li a{font-size:  30px;}	
+
+
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
