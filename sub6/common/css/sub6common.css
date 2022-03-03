@@ -1,0 +1,33 @@
+/* sub1 공통 - 비주얼/서브네비/타이틀영역 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+.visual {font-family: 'Noto Sans KR', sans-serif;}
+#content{width: 1200px;  margin:0 auto; background: rgb(255, 255, 255); font-family: 'Noto Sans KR', sans-serif; }
+#content h3{ font-size :40px;text-align: center; } 
+#content p{font-size :30px; text-align: center; padding: 15px 0 100px ; font-weight: 400; color: #333;}
+
+
+
+span {color:  #0166b3; font-weight: bold;}
+/* h3 {font-size: 3.25em;}
+h4 {font-size: 1.5em;} */
+
+
+.visual{width: 2000px; margin-top: 89px; position: relative;
+   left:50%; margin-left: -1000px; top:0}
+.visual h3{position: absolute; text-align: center;
+     font-size: 50px; left:0; top:165px; width: 100%; color: white; font-weight: 200;}
+.visual p {position: absolute; text-align: center;
+   font-size: 18px; left:0; top:250px; width: 100%; color: white; font-weight: 300;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top:-27px;
+         margin-bottom: -73px; z-index: 30;  }
+.sub_menu ul{overflow: hidden; width: 400px; margin: 0 auto;box-shadow:10px 10px 20px rgba(0,0,0,0.2);}
+.sub_menu li{float: left; width: 200px;font-size: 24px;  }
+.sub_menu li a{display: block; font-size: 20px; font-weight: 400; padding:25px 0 ;  font-family: 'Noto Sans KR', sans-serif; 
+            background: rgb(255, 255, 255); text-align: center;  transition: all .5s;}
+.sub_menu li a:hover{background: #0166b3; color: #fff; font-weight:bold;}
+.sub_menu .current a{background: #0166b3; color: #fff; font-weight: bold;}
+

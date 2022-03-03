@@ -1,0 +1,58 @@
+/*  content1_1 */
+
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area { width: 2000px; height:300px ; position: relative; top: -6px ; left: 50%; margin-left: -1000px;  background-color:#fafafa ; 
+   background-attachment: fixed; }
+
+
+#content .line_map{position: absolute; left:430px; top:100px; font-size:16px; color: rgb(139, 139, 139); }
+#content .line_map strong { color:rgb(80, 80, 80);}
+#content h2{text-align: center; font-size: 60px;  padding: 110px; }
+
+
+
+/* 중간메뉴 */
+
+.sub_menu2{width: 1200px; margin: 0 auto; position: relative; top:-27px;
+   margin-bottom: -73px; z-index: 30;  }
+.sub_menu2 ul{overflow: hidden; width: 380px; margin: 0 auto;box-shadow:10px 10px 20px rgba(0,0,0,0.2);}
+.sub_menu2 li{float: left; width: 190px;font-size: 20px;  }
+.sub_menu2 li a{display: block; font-size: 20px; font-weight: 400; padding:18px 0 ;  font-family: 'Noto Sans KR', sans-serif; 
+      background: rgb(255, 255, 255); text-align: center;  transition: all .5s;}
+/* .sub_menu2 li a:before:hover{ content: ""; display:block ; width: 100%;; height: 1px; background-color: rgb(236, 0, 0); bottom: 2px;} */
+.sub_menu2 li a:hover{background: #0089CF; color: #fff; font-weight:bold;}
+.sub_menu2 .current a{background: #0089CF; color: #fff; font-weight: bold;}
+
+
+/* 컨텐츠 시작 */
+
+.content_area .content_main {width: 1200px;}
+.content_area .content_main h3 {text-align: left; margin: 120px 0 50px;}
+
+.content_area .content_main .circle{width: 1200px; overflow: hidden;}
+.content_area .content_main .circle a {display:block ; font-size: 100px; text-align: center ; color: rgb(224, 224, 224);}
+.content_area .content_main .circle a .fa-chevron-left{float: left; width: 320px; margin: 225px 0 ; }
+.content_area .content_main .circle a .fa-chevron-right{ float: right;width: 320px; margin: 225px 0 ; }
+.content_area .content_main .circle a:hover{color: #0089CF;}
+.content_area .content_main .circle img {display: block; width: 559px; height: 559px;float:left; border-radius: 20%; 
+}
+
+.content_area .content_main .circle_bottom{ width: 100%; text-align: center; margin: 50px 0 100px;}
+.content_area .content_main .circle_bottom a{ font-size: 24px; padding: 15px;color: rgb(224, 224, 224);}
+.content_area .content_main .circle_bottom a:hover{color: #0089CF;}
+.content_area .content_main .textbox { clear: both; margin-bottom: 50px; position: relative;}
+.content_area .content_main .textbox:after { content: ""; display:block ; width: 1200px; height: 1px; background-color: #999; position: absolute; bottom: -20px; }
+
+
+
+.content_sub {margin-top: 80px; width: 100%; margin-bottom: 200px;}
+.content_sub p{font-size: 35px; font-weight: bold;} 
+
+.content_sub  {overflow: hidden; }
+.content_sub  dl {width: 380px;  float: left; padding:10px 30px 10px  0}
+.content_sub  dl:nth-child(3) {padding-right: 0;} 
+.content_sub  dl dt img{height: 222px;  }
+.content_sub  dl dd {padding: 10px 0 30px;}
+

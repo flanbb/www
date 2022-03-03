@@ -1,0 +1,90 @@
+/*  content1_2 */
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area { width: 2000px; height:300px ; position: relative; top: -6px ; left: 50%; margin-left: -1000px;  background-color:#fafafa ; 
+   background-attachment: fixed; }
+
+
+#content .line_map{position: absolute; left:430px; top:100px; font-size:16px; color: rgb(139, 139, 139); }
+#content .line_map strong { color:rgb(80, 80, 80);}
+#content h2{text-align: center; font-size: 60px;  padding: 110px; }
+
+#content .content01>p {font-size: 37px; font-weight: bold;}
+#content .content01 {width: 1200px; overflow: hidden; margin: 135px 0 200px ; position: relative;} 
+#content .content01::before{content:''; position:absolute; left: 50%; top:20px; width: 10px; height: 40px; background:#005793;  margin-left: -170px; top:23px}
+
+#content .content01 .textbox0 p{ margin:90px 0 50px; text-align: center;  font-size: 1.8rem; font-family: 'Noto Serif KR', serif; }
+
+#content .content01 .text_over {overflow: hidden;}
+
+#content .content01 .textbox1 div { float: left;}
+#content .content01 .textbox1 div dl{ width: 500px; height: 360px; background-color: #fff; box-shadow:4px 4px 10px 3px rgba(0,0,0,0.1); margin: 0 0 95px 5px; transition: .5s;}
+#content .content01 .textbox1 div dl dt{text-align: right; font-weight: 600; padding: 50px 30px 70px 30px;}
+#content .content01 .textbox1 div dl dd{padding-left:30px ;}
+#content .content01 .textbox1 div dl:nth-child(1):hover{background:#94c2e6; color:#fff; }
+#content .content01 .textbox1 div dl:nth-child(2):hover{background:#61a9e0; color:#fff; }
+#content .content01 .textbox1 div dl:nth-child(3):hover{background:#2491e4; color:#fff; }
+
+#content .content01 .textbox2 div { float: left;}
+#content .content01 .textbox2 div dl{ width: 500px; height: 360px; background-color: #fff; box-shadow:4px 4px 10px 3px rgba(0,0,0,0.1); margin-bottom: 95px;  transition: .5s;}
+#content .content01 .textbox2 div dl dt{text-align: left; font-weight: 600; padding: 50px 30px 70px 30px;}
+#content .content01 .textbox2 div dl dd{padding-left:30px ;}
+#content .content01 .textbox2 div dl:nth-child(1):hover{background:#80b9e5; color:#fff; }
+#content .content01 .textbox2 div dl:nth-child(2):hover{background:#459ee2; color:#fff; }
+#content .content01 .textbox2 div dl:nth-child(3):hover{background:#108ae7; color:#fff; }
+#content .content01 .textbox2 div dl:nth-child(1){ margin-top: 240px;}
+
+
+
+#content .content01  .text_over  .circle {float: left; margin-top:145px ;}
+#content .content01  .text_over  .circle ul li{width: 50px; height: 50px; border-radius: 50%; box-shadow:4px 4px 10px 3px rgba(0,0,0,0.1);margin: 0 68px 180px 68px;}
+#content .content01  .text_over  .circle ul li:nth-child(1) {background-color: #94c2e6;}
+#content .content01  .text_over  .circle ul li:nth-child(2) {background-color: #80b9e5;}
+#content .content01  .text_over  .circle ul li:nth-child(3) {background-color: #61a9e0;}
+#content .content01  .text_over  .circle ul li:nth-child(4) {background-color: #459ee2;}
+#content .content01  .text_over  .circle ul li:nth-child(5) {background-color: #2491e4;}
+#content .content01  .text_over  .circle ul li:nth-child(6) {background-color: #108ae7;}
+
+
+
+#content .content01 .textbox3 {width: 500px; height: 500px; background-color: #fff; box-shadow:4px 4px 10px 3px rgba(0,0,0,0.1); border-radius: 50%;
+margin: 0 345px 20px; transition: .5s;}
+#content .content01 .textbox3:hover{background:#0066b3; color:#fff; }
+
+#content .content01 .textbox3 dt{text-align: center; font-weight: 600; padding: 80px 0 80px 0}
+#content .content01 .textbox3 dd {padding-left:70px ;}
+
+
+
+
+
+
+
+#content .content02 {width: 1200px; overflow: hidden; margin: 0 0 200px ; position: relative;} 
+#content .content02::before{content:''; position:absolute; left: 50%; top:12px; width: 10px; height: 40px; background:#005793;  margin-left: -120px;}
+/* 
+#content h3::before{content:''; position:absolute; width: 2000px; height: calc(100% - 150px); left:50%; top: 275px; margin-left:-1000px; background:#ebf0f2; z-index:-1;}
+#content h3::after{content:''; display:block; clear: both;} */
+
+
+
+#content .content02 .textbox0 {margin:70px 0 50px; text-align: center; font-size: 1.8rem; font-family: 'Noto Serif KR', serif; }
+#content .content02 .textbox0 p {font-size: 22px; text-align: justify; padding: 15px 0 5px;}
+
+#content .content02 .textbox1  {overflow: hidden;}
+#content .content02 .textbox1  dl { float:left; width: 400px; height: 400px; border-radius: 50%; background-color: #fff;  box-shadow:10px 10px 20px rgba(0,0,0,0.1); margin: 10px 0 20px 100px; transition: 0.5s;}
+#content .content02 .textbox1  dl dt {text-align: center; font-size: 70px;  padding: 5px 0 0; font-weight: bold;}
+#content .content02 .textbox1  dl:hover{background:#2491e4; color:#fff; }
+#content .content02 .textbox1  dl dd {font-size :14px; text-align: left; padding:20px 60px 0 50px ; font-weight: 400; text-align: justify; }
+#content .content02 .textbox1  dl dd:nth-child(1){margin-top: 70px;} 
+
+
+
+#content .content02 .textbox2 {overflow: hidden; }
+#content .content02 .textbox2 dl { float:left; width: 400px; height: 400px; border-radius: 50%;  background-color: #fff; box-shadow:4px 4px 10px 3px rgba(0,0,0,0.1); margin: 10px 0 20px 100px;  transition: 0.5s;}
+#content .content02 .textbox2 dl dt {text-align: center; font-size: 70px;  padding: 5px 0 0; font-weight: bold;}
+#content .content02 .textbox2 dl:hover{background:#2491e4; color:#fff; }
+#content .content02 .textbox2 dl dd {font-size :14px; text-align: left; padding:20px 60px 0 50px ; font-weight: 400;text-align: justify; }
+#content .content02 .textbox2 dl dd:nth-child(1){margin-top: 70px;} 
+#content .content02 .textbox2 dl:nth-child(1){margin-left: 250px;} 

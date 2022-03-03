@@ -1,0 +1,318 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSME</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico" />
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./mainCss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainJs/mainpopup.js"></script>
+</head>
+<body>
+    <? include "./common/main_header.html"?>
+        <div class="main">
+            <div class="gallery">
+                <ul>
+                     <li class="link1"><a href="#"><img src="images/a1.jpg" alt='' />
+                     <p class="title1">The Ultimate Evolution</p>
+                     <p class="title2">초일류 기술경영, 세계적인 기업으로</p>
+                     <p class="title3">미래시장을 선도할 수 있는 핵심기술로 지속발전하는 조선소를 만들어갑니다</p>
+                     </a></li>
+                     <li class="link2"><a href="#"><img src="images/a7.jpg" alt='' /></a></li>
+                     <li class="link3"><a href="#"><img src="images/a6.jpg" alt='' /></a></li>
+                     <li class="link4"><a href="#"><img src="images/a4.jpg" alt='' /></a></li>
+                     <li class="link5"><a href="#"><img src="images/a6.jpg" alt='' /></a></li>
+               </ul>
+            </div>
+            <div class="dock">
+                <span class="mbutton  btn1" ></span>
+                <span class="mbutton  btn2" ></span>
+                <span class="mbutton  btn3" ></span>
+                <!-- <span class="mbutton  btn4" ></span>
+                <span class="mbutton  btn5" ></span> -->
+                <span class="ps" ></span>
+            </div>
+        </div>
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            <section class="content01">
+                <h3>사업분야</h3>
+                <p>대우조선 핵심 사업분야를 소개합니다</p>
+                <!-- slide -->
+                    <div class="business_slide">
+
+                      
+                       
+                        <div class="business_box">
+                            <img src="./common/images/content_01_01.jpg" alt="">
+                            <div class="text_box">
+                                <h4>특수선</h4>
+                                <p>세계 초대형 컨테이너 화물선 머스크 트리플-E의 개발로 세계 특수선 시장을 선도합니다.</p>
+                                <a class="more_type_01" href="#">더보기</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- 연구소/신기술 -->
+
+            <section class="content02">
+                <h3>기술연구</h3>
+                <p>한국 조선 해양기술을 선도하는 업계 대표 연구원</p>
+                <!-- 콘텐츠 -->
+                    <div class="reserch_box">
+                        <img src="./common/images/reserch_tech_01.jpg" alt="연구소 소개">
+                        <div class="text_box">
+                            <h4>연구소 소개</h4>
+                            <p>고효율·고성능·친환경 선박을 위한
+                                연구개발을 수행하고 있습니다.</p>
+                            <a class="more_type_01" href="#">더보기</a>
+                        </div>
+                    </div>
+                    <div class="tech_box">
+                        <img src="./common/images/reserch_tech_02.jpg" alt="신기술 소개">
+                        <div class="text_box">
+                            <h4>첨단 신기술</h4>
+                            <p>대우조선해양만의 최첨단고부가가치
+                                 AI 신기술을 소개합니다.</p>
+                            <a class="more_type_01" href="#">더보기</a>
+                        </div>
+                    </div>  
+            </section>
+
+
+            <!-- 경영 -->
+
+            <section class="content03">
+                <h3>지속 가능 경영</h3>
+                <p>가치를 더하는 기업, 보다 행복한 내일을 계획합니다</p>
+                
+                <div class="management_box_all">
+                   
+                   
+                    <div class="management_box_1">
+                        <div class="text_box">
+                            
+                            <p>건강한 기업문화를 가꾸고 
+                                사회적 책임을 다하여
+                                신뢰받고 존경받는 영속기업이 되겠습니다.</p> 
+                            <h4>기업윤리</h4>
+                            <a class="more_type_02" href="./sub4/sub4_1.html">view more</a>
+                        </div>
+                    </div>
+                        
+                    <div class="management_box_2 hidden">
+                        <div class="text_box">
+                            
+                            <p>상생의 가치를 실천하고 
+                                모범기업시민으로서의 책임을 
+                                다하고 있습니다.</p> 
+                            <h4>사회공헌</h4>
+                            <a class="more_type_02" href="./sub4/sub4_2.html">view more</a>
+                        </div>
+                    </div>
+
+
+                    <div class="management_box_3 hidden">
+                        <div class="text_box">
+                            
+                            <p>인간존중과 사랑을 바탕으로
+                                기본과 원칙을 준수하는
+                                HSE구현을 신조로 하고있습니다.</p> 
+                            <h4>HSE경영</h4>
+                            <a class="more_type_02" href="./sub4/sub4_3.html">view more</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="subbox">
+                        <h3 class="hidden">뉴스</h3>
+                        
+                        <div class="news_box">
+                            <div class="news_box01">
+                                <div class="text_box">
+                                    <a href="./concert/list.php">
+
+                                    <h4>DSME 보도자료</h4>
+                                    <dl>
+                                        <dt>대우조선해양, 자율운항 기술 실증 나서</dt>
+                                        <dd>- 자율운항 시험선 '단비’ 명명식 개최, 자율운항선 기술 개발 본격화</dd>    
+                                    </dl>
+                                        <img src="./common/images/arrow_g.png" alt="더보기"> 
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="news_box02">
+                                <h4><a href="./greet/list.php">DSME 공지사항</a></h4>
+
+                                    <? include "./lib/func.php"; ?>
+
+                                <ul>
+                                    <? latest_article("greet", 4,30); ?>
+                                </ul>
+
+                                <a href="./greet/list.php"><img src="./common/images/arrow_g.png" alt="더보기"></a> 
+                            </div>
+                        </div>
+                          
+                    </div>
+
+
+                </div>
+
+
+                 
+            </section>
+
+
+
+
+            <!-- 공지 뉴스 -->
+
+
+            <section class="content04">
+               
+                 <h3>홍보센터</h3>
+                 <p> DSME의 다양한 하루를 만나보세요</p>
+                    
+                    <div class="video">  
+                        <iframe width="1200px" height="512px" src="https://www.youtube.com/embed/hfUoVHins2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                    </div>
+                    
+                    <div class="sns">
+                        <div class="facebook">
+                            <div> 
+                                <dl>
+                                    <dt>Facebook</dt>
+                                    <dd>DSME 공식 페이스북 바로가기</dd>
+                                    <a class="more" href="#">  <img src="./common/images/arrow_g.png" alt="더보기">   </a>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="youtube">
+                            <div>
+                                <dl>
+                                    <dt>Youtube</dt>
+                                    <dd>DSME 공식 유튜브 바로가기</dd>
+                                    <a href="#">  <img src="./common/images/arrow_g.png" alt="더보기">   </a>
+                                </dl>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+            </section>    
+                    
+            <!-- etc 방문 리크루트 홍보-->
+
+            <section class="content06">
+
+            <h3><span>About</span> DSME</h3>
+            <p>언제나 DSME의 문은 열려있습니다</p>
+                    
+                <h3 class="hidden">기타메뉴</h3> 
+                <div class="sub_title_06">  
+                    <ul>
+    
+                        <li> 
+                            <a href="./sub5/sub5_1.html">
+                            <img src="./common/images/icon02.png" alt="비즈니스 방문"> 
+                            <div class="text_box">
+                                <h4>DSME 방문</h4>
+                            </div>
+                            </a>
+                        </li>
+        
+                        <li> <a href="./sub5/sub5_2.html"><img src="./common/images/icon03.png" alt="DSME Q&A"> 
+                            <div class="text_box">
+                                <h4>DSME FAQ</h4>
+                            </div>
+                        </a>
+                        </li>
+        
+                        <li> <a href="./concert/list.php"><img src="./common/images/icon04.png" alt="홍보센터"> 
+                            <div class="text_box">
+                                <h4>홍보센터</h4>
+                            </div>
+                        </a>
+                        </li>
+        
+                        <li> <a href="./sub6/sub6_1.html"><img src="./common/images/icon05.png" alt="리크루트"> 
+                            <div class="text_box">
+                                <h4>리크루트</h4>
+                            </div>
+                        </a>
+                        </li>
+        
+                        <li> <a href="./login/login_form.php"><img src="./common/images/icon06.png" alt="기술교육원"> 
+                            <div class="text_box">
+                                <h4>기술교육원</h4>
+                            </div>
+                        </a>
+                        </li>
+
+                    </ul>              
+                </div>
+                
+<div>
+    <p></p>
+
+</div>
+    
+                <div class="clearboth"></div>        
+            </section>
+
+       
+
+        </article>
+        
+
+
+   <? include "./common/main_footer.html"?>
+    
+<script src="./mainJs/move.js"></script>
+
+
+    <!-- 공지사항 팝업 -->
+        
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;right:200px;top:200px;">
+    <script>
+      function closeWin(){
+         var chk = document.getElementById('Notice')
+         if ( chk.checked ) {
+               setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+          }
+      }
+     if ( getCookie( "Notice" ) == "done" ) {
+         hidebox();
+     }
+   </script>
+      <div>
+            <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+      </div>
+       <div style="font-size:12px;text-align:center;color:rgb(56, 56, 56);">
+         <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+       <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+

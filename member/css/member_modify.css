@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-family: 'Nanum Gothic', 'san-serif';
+    background-image: url(../images/member_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.hidden {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    left: -1000%;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: #fff
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+p {
+    text-align: left;
+    padding: 20px 0 0;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #999;
+
+}
+
+.logo { padding: 40px;}
+
+h2 {position: absolute; top: 40px; right: 40px; font-size: 28px; color: #666; }
+h2::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 740px;
+    height: 1px;
+    margin-left: -622px;
+    background: #e9e9e9;}
+
+span {
+    width: 200px; margin-right:200px;
+}
+
+table {margin-left:6px ;
+}
+
+#content {
+
+    width: 740px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -370px;
+}
+
+#form_join {
+    padding: 20px;
+     
+}
+
+#nick2 {position: absolute; top: 10px; right : -100px;  padding: 7px 15px;
+background-color: #999; font-size: 15px; width: 60px; }
+
+#must {padding: 0 20px; text-align: left; margin-bottom: 20px; font-size: 15px;}
+
+.hp{width: 80px;}
+.hp1 {width: 126px;}
+
+input,
+select {
+      padding: 5px;
+      border-radius: 2px;
+      font-size: 1em;
+      border: 0;
+      background: #f1f1f1;
+      width: 386px;
+}
+
+th,
+td {
+      border: 1px solid rgb(255, 255, 255);
+      padding: 10px
+}
+
+tr {position: relative;}
+th {width: 130px;}
+
+#button {text-align: center;
+padding: 40px 0 ;}
+
+#email1 {width: 200px;}
+#email2 {width: 150px;}
+
+.button_ok {
+    display: inline-block;
+    width: 450px;
+    line-height: 24px;
+    padding: 8px 0;
+    border: none;
+    background: rgb(78, 136, 245);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.button_ok :hover {
+    background:#0066b3;
+}
+
+
+.button_cancel {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    line-height: 24px;
+    padding: 8px 0;
+    border: none;
+    background: #999;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+}

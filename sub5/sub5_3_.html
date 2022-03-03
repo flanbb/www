@@ -1,0 +1,77 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-기업개요</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+
+
+</head>
+<body>
+
+    <? include "../common/sub_header.html"?>
+
+<div class="visual">
+    <img src="./common/images/sub5_visual.jpg" alt="visual">    
+    <h3>홍보센터</h3>
+    <p>Daewoo Shipbuilding Comunications </p>
+
+</div>
+
+<div class="sub_menu">
+    <ul>
+        <li><a href="./sub5_1.html">방문신청</a></li>
+        <li><a href="./sub5_2.html">FAQ</a></li>
+        <li class="current"><a href="./sub5_3.html">게시판</a></li>
+        <li><a href="./sub5_4.html">홍보센터</a></li>
+    </ul>
+    
+</div>
+
+<article id="content">
+    <div class="title_area">
+        <div class="line_map"><i class="fas fa-home"></i> home   &gt;   홍보센터   &gt; <strong> 게시판 </strong></div>
+        <h2>게시판</h2>
+        <div class="content_bg"> </div> 
+    </div>
+
+    <!-- 중간메뉴 추후 추가 -->
+
+    <!-- 콘텐츠 -->
+
+    <div class="content_area">
+        <section class="content01">
+            <h3>게시판</h3>
+            <p>뉴스 및 데이터</p>
+            
+       
+        </section>
+
+   </div>
+    </div>
+
+
+</article>
+
+
+<? include "../common/sub_footer.html"?>
+
+
+
+</body>
+</html>

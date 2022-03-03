@@ -1,0 +1,102 @@
+
+ <div id="skipNav">
+    <a href="#content">본문 바로가기</a>
+    <a href="#gnb">글로벌 네비게이션 바로가기</a>
+</div>
+
+ 
+ 
+ <div class="wrap">
+        <header id="headerArea">
+            <div class="header_inner">
+                <h1> <a href="../index.html">DSME로고</a> </h1>
+                
+                <nav id="gnb">
+                    <h2 class="hidden">글로벌네비게이션영역</h2>
+
+                    <ul class="dropdownmenu">
+                        <li class="m1 menu">
+                            <h3><a class="depth1" href="../sub1/sub1_1.html">기업소개</a></h3>
+                            <ul>
+                                <li><a href="../sub1/sub1_1.html">기업안내</a></li>
+                                <li><a href="../sub1/sub1_2.html">연혁</a></li>
+                                <li><a href="../sub1/sub1_3.html">CEO 소개</a></li>
+                                <li><a href="../sub1/sub1_4.html">VISION</a></li>
+                            </ul>
+                        </li>
+                     
+                        <li class="m2 menu">
+                            <h3><a class="depth1" href="../sub2/sub2_1.html">사업분야</a></h3>
+                            <ul>
+                                <li><a href="../sub2/sub2_1.html">상선/특수선</a></li>
+                                <li><a href="../sub2/sub2_2.html">해양플랜트</a></li>
+                                <li><a href="../sub2/sub2_3.html">건조실적</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m3 menu">
+                            <h3><a class="depth1" href="../sub3/sub3_1.html">기술연구</a></h3>
+                            <ul>
+                                <li><a href="../sub3/sub3_1.html">연구소</a></li>
+                                <li><a href="../sub3/sub3_2.html">신기술</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m4 menu">
+                            <h3><a class="depth1" href="../sub4/sub4_1.html">지속경영</a></h3>
+                            <ul>
+                                <li><a href="../sub4/sub4_1.html">기업윤리</a></li>
+                                <li><a href="../sub4/sub4_2.html">사회공헌</a></li>
+                                <li><a href="../sub4/sub4_3.html">HSE경영</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m5 menu">
+                            <h3><a class="depth1" href="../sub5/sub5_1.html">홍보센터</a></h3>
+                            <ul>
+                                <li><a href="../sub5/sub5_1.html">방문신청</a></li>
+                                <li><a href="../sub5/sub5_2.html">FAQ</a></li>
+                                <li><a href="../greet/list.php">게시판</a></li>
+                                <li><a href="../concert/list.php">홍보센터</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m6 menu">
+                            <h3><a class="depth1" href="../sub6/sub6_1.html">채용정보</a></h3>
+                            <ul>
+                                <li><a href="../sub6/sub6_1.html">RECRUIT</a></li>
+                                <li><a href="../sub6/sub6_1.html">기술교육원</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                   
+                </nav>
+                
+                <div class="top_menu">
+                    <ul>
+
+                        <?
+                            if(!$userid) 
+                            {
+                        ?>
+        
+                            <li><a href="../login/login_form.php">로그인</a></li>
+                            <li><a href="../member/member_check.html">회원가입</a></li>
+                                    
+                        <?
+                            }
+                            else 
+                            {
+                        ?>
+        
+                            <li><a href="../login/logout.php">로그아웃</a></li>
+                            <li><a href="../member/member_form_modify.php">정보수정</a></li>
+        
+                        <?
+                            }
+                        ?>
+                    </ul>
+                </div>
+            </div>
+        </header>

@@ -1,0 +1,64 @@
+/*  content1_4 */
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area { width: 2000px; height:300px ; position: relative; top: 0 ; left: 50%; margin-left: -1000px;  background-color:#fafafa ; 
+   background-attachment: fixed; }
+
+
+
+
+#content .line_map{position: absolute; left:430px; top:100px; font-size:16px; color: rgb(139, 139, 139); }
+#content .line_map strong { color:rgb(80, 80, 80);}
+#content h2{text-align: center; font-size: 60px;  padding: 110px; }
+
+#content .content01 {width: 1200px; overflow: hidden; margin: 135px 0 200px ; position: relative;} 
+#content .content01 h3{ padding-bottom: 50px ;}
+#content .content01::before{content:''; position:absolute; left: 50%; top:12px; width: 10px; height: 40px; background:#0166b3;  margin-left: -140px;}
+#content .content01 .textbox0  {text-align: center; font-size: 1.8rem; }
+
+
+
+#content .content01 p {font-size: 24px; padding: 20px 0 0 0; text-align: center; margin: 20px 0; }
+#content .content01 .textbox .trust p {clear: both;}
+#content .content01 .textbox .trust {overflow: hidden;}
+#content .content01 .textbox .trust dl {margin: 20px; float: left; text-align: justify; box-shadow:2px 2px 2px 2px rgba(83, 83, 83, 0.1); border-radius: 20px ;}
+#content .content01 .textbox .trust dl dt{width: 350px; height: 80px; color:#fff; font-size: 40px; text-align: center; margin-top: 0 auto; padding:40px 0 10px; border-radius: 20px 20px 0 0 ; }
+
+
+#content .content01 .textbox .trust dl dd{width: 350px; height: 120px; background:#ffffff; color: #333; font-size: 20px; text-align: center;  padding: 50px 2px 0;  border-radius: 0 0 18px 18px; } 
+
+#content .content01 .textbox .trust dl:nth-child(2){ background:#67b5df;}
+#content .content01 .textbox .trust dl:nth-child(3){ background:#329bd2;}
+#content .content01 .textbox .trust dl:nth-child(4){ background:#018ad1;}
+
+#content .content01 .textbox .trust dl:nth-child(6){ background:#70a0ea;}
+#content .content01 .textbox .trust dl:nth-child(7){ background:#648fd3;}
+#content .content01 .textbox .trust dl:nth-child(8){ background:#4f77b4;}
+
+
+
+#content .content02 {width: 1200px; overflow: hidden; margin: 135px 0 200px ; position: relative;} 
+#content .content02 h3{ padding-bottom: 50px ;}
+#content .content02::before{content:''; position:absolute; left: 50%; top:12px; width: 10px; height: 40px; background:#0166b3;  margin-left: -140px;}
+#content .content02 .textbox0  {text-align: center; font-size: 1.8rem; }
+
+
+
+#content .content02 p {font-size: 24px; padding: 20px 0 20px; text-align: center; margin: 20px 0; }
+#content .content02 .textbox .passion p {clear: both;}
+#content .content02 .textbox .passion {overflow: hidden;}
+#content .content02 .textbox .passion dl {margin: 20px; float: left; text-align: justify; box-shadow:2px 2px 2px 2px rgba(83, 83, 83, 0.1); border-radius: 20px ;}
+#content .content02 .textbox .passion dl dt{width: 350px; height: 80px; color:#fff; font-size: 40px; text-align: center; margin-top: 0 auto; padding:40px 0 10px; border-radius: 20px 20px 0 0 ; }
+
+
+#content .content02 .textbox .passion dl dd{width: 350px; height: 120px; background:#ffffff; color: #333; font-size: 20px; text-align: center;  padding: 50px 5px 0;  border-radius: 0 0 18px 18px; } 
+
+#content .content02 .textbox .passion dl:nth-child(2){ background:#e97659;}
+#content .content02 .textbox .passion dl:nth-child(3){ background:#eb6240;}
+#content .content02 .textbox .passion dl:nth-child(4){ background:#e7451c;}
+
+#content .content02 .textbox .passion dl:nth-child(6){ background:#ead470;}
+#content .content02 .textbox .passion dl:nth-child(7){ background:#eccf4d;}
+#content .content02 .textbox .passion dl:nth-child(8){ background:#e6c11f;}
+

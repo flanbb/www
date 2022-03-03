@@ -1,0 +1,54 @@
+/*  content1_1 */
+
+#content .org {color: rgb(235, 82, 22);}
+#content .blue {color: rgb(54, 80, 168);}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area { width: 2000px; height:300px ; position: relative; top: -6px ; left: 50%; margin-left: -1000px;  background-color:#fafafa ; 
+   background-attachment: fixed; }
+
+
+#content .line_map{position: absolute; left:430px; top:100px; font-size:16px; color: rgb(139, 139, 139); }
+#content .line_map strong { color:rgb(80, 80, 80);}
+#content h2{text-align: center; font-size: 60px;  padding: 110px; }
+
+
+
+#content .content01 {width: 1200px; overflow: hidden; margin: 135px 0 200px ;  position: relative;} 
+/* #content h3::after {content: ''; position:absolute; width: 20px; height: 20px;background:rgba(179, 13, 104, 0.5);  } */
+
+#content .content01 h3{ padding-bottom: 50px ;}
+#content {font-size: 20px;}
+
+
+#content .content01 .con01 { text-align: center; margin-bottom: 30px; }
+
+
+#content .content01 .cal { border: 1px solid #000;  margin-bottom: 50px; float: left; width: 70%;}
+#content .content01 .cal .date {  border: 1px solid #000;
+   margin: 10px; border-top: 4px solid #000; border-bottom: 2px solid #999;   }
+#content .content01 .cal .date ul{display: flex; flex-wrap: nowrap; flex-direction: row;}
+
+#content .content01 .cal .date ul li{padding: 10px 0 10px 68px; }
+#content .content01 .cal>p { width: 90% ;padding: 200px 0; margin: 0 auto;   border: 1px solid #000;}
+
+/* 
+.calendar_box{width: 1000px; margin: 0 auto;}
+#calendar {
+  max-width: 1100px;
+  margin: 0 auto;
+} */
+
+#content .content01 .con02 {float: right; width:27%;  height: 300px; margin: 100px 20px 0 0;   font-size: 15px;  box-shadow:5px 5px 20px rgba(0,0,0,0.1); border-radius : 20px; background-color: rgba(252, 252, 252, .5 );}
+#content .content01 .con02 th {font-size: 30px; text-align: center; padding: 10px; font-weight: bold;}
+#content .content01 .con02 td {width: 40px; text-align: center;}
+
+
+#content .content01 .con03 {width: 555px; height: 200px;  float: left; box-shadow:5px 5px 20px rgba(0,0,0,0.1); border-radius : 20px; background-color: rgba(252, 252, 252, .5 ); margin: 10px; padding: 10px; font-size: 18px; }
+#content .content01 .con03 dt{ font-size: 30px; text-align: center; padding: 10px 0 20px; font-weight: bold;}
+
+.clear {clear: both; height: 20px;}
+
+#content .content01 .con05 {width: 1180px; padding: 30px 0;box-shadow:5px 5px 20px rgba(0,0,0,0.1); border-radius : 20px; background-color: rgba(252, 252, 252, .5 ); margin-bottom: 100px; }
+#content .content01 .con05 dt{ font-size: 30px; text-align: center; padding-bottom: 20px; font-weight: bold;}
+#content .content01 .con05 li {list-style-type: disc; margin-left: 30px;}

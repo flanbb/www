@@ -1,0 +1,157 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-기업개요</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+
+
+</head>
+<body>
+
+    <? include "../common/sub_header.html"?>
+
+    <div class="visual">
+        <img src="./common/images/sub5_visual.jpg" alt="visual">    
+        <h3>홍보센터</h3>
+        <p>Daewoo Shipbuilding Comunications </p>
+
+    </div>
+
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub5_1.html">방문신청</a></li>
+            <li class="current"><a href="./sub5_2.html">FAQ</a></li>
+            <li><a href="../greet/list.php">게시판</a></li>
+            <li><a href="../concert/list.php">홍보센터</a></li>
+        </ul>
+        
+    </div>
+
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map"><i class="fas fa-home"></i> home   &gt;   홍보센터   &gt; <strong> FAQ  </strong></div>
+            <h2>FAQ</h2>
+            <div class="content_bg"> </div> 
+        </div>
+
+        <!-- 중간메뉴 추후 추가 -->
+
+        <!-- 콘텐츠 -->
+
+        <div class="content_area">
+            <section class="content01">
+                <h3>자주 묻는 질문들</h3>
+                <div class="con01">여러분이 자주 하는 질문들을 모아 놓은 곳입니다. <br>질문하기 전 찾는 내용이 있는지 확인해 주세요</div>
+
+                <div class="faq">  
+                    <div class="hgroup">  
+                    
+                    <a class="all" href="#">모두열기  <span> ▼ </span></a>
+                    </div> 
+            
+                    <ul>  
+                        <li class="article show">  
+                            <p class="q">  
+                                <a class="trigger" href="#" >1. 운영시간 안내</a>  
+                                <span></span>
+                            </p>  
+                            <ul class="a">
+                                <li>견학가능일 : 월~금 (토, 일, 공휴일 제외) </li>
+                                <li>견학시간  : 09:00~15:00 (12:00~13:00 제외)</li> 
+                                <li>견학소요시간 : 30분</li>   
+                                <li>견학단위 : 단체와 개인으로 구분됩니다.</li>
+                            </ul> 
+                    </li> 
+                        
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >2. 개인/가족 견학</a> 
+                            <span></span> 
+                        </p>  
+                        
+                        <ul class="a">
+                            <li>한가족당 10명이하만 신청가능합니다.(단. 해당신청시간대에 총 신청인원이 10명미만일 경우, 해당시간 투어는 자동취소되며, 취소시 사전에 문자 또는 전화로 안내드립니다.)
+                                회사 셔틀버스를 이용
+                                평일 10시, 14시에만 실시 (각 시간대별 30분 소요)</li> 
+                        </ul>
+                    </li>
+            
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >3. 단체 견학 </a>
+                            <span></span>  
+                        </p>  
+                      
+                        <ul class="a">
+                            <li>단체 : 25인승 이상 버스 이용 시(승용차,승합차는 투어 불가)
+                                각 시간대 견학가능 버스는 3대
+                                3대 이상의 단체견학은 1시간 간격으로 2대 이상 조로 나눠 신청</li> 
+                        </ul>
+
+
+                    </li>
+            
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >4. 유의사항 안내</a> 
+                            <span></span> 
+                        </p>  
+                        
+                            <ul class="a">
+                                <li>1. 견학 10분전까지 대우조선소 정문으로 도착해 주시고, 주차장은 정문 맞은편에 있습니다. </li>
+                                <li>2. 견학 중 yard 내 지정된 장소 외 사진 촬영이 불가 합니다.</li> 
+                                <li>3. 견학 신청 시 여행사를 통한 대리접수가 불가하오니 이점 양해 부탁 드립니다.</li> 
+                            </ul>
+
+                    </li>
+            
+                </ul>
+                </div>
+            
+            </section>
+
+            <section class="content02">
+                <h3>Coatact us</h3>
+                <div class="con01">DSME에 궁금한
+                    사항이 있으세요?</div>
+
+                <div class="con02">
+                    <ul class="">
+                        <li><span>DSME 서울</span> 02  - 2522 - 5584</li>
+                        <li><span>옥포 조선소</span>02 - 2522 - 5584</li>
+                        <li><span>방문 신청</span>065 - 2522 - 5584</li>
+                        <li><span>견학 신청</span>065 - 2522 - 5584</li>
+                        <li><span>웹 사이트</span>065 - 2522 - 5584</li>   
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </article>
+
+
+<? include "../common/sub_footer.html"?>
+
+<script src="./js/jquery-1.12.4.min.js"></script>   
+<script src="./js/jquery-migrate-1.4.1.min.js"></script>   
+<script src="./js/common.js"></script>
+<script type=text/javascript src="./js/faq.js"></script>
+
+
+</body>
+</html>

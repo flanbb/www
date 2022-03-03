@@ -1,0 +1,143 @@
+body {
+      background-color: rgb(255, 255, 255);
+      background-image: url(../images/member_bg.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+.logo {
+      margin: 0 auto;
+      display: block;
+      width: 150px;
+      height: 49px;
+      position: relative;
+      top: 130px;
+      left: -262px;
+      z-index: 10;
+}
+
+#content {
+      width: 740px;
+      margin: 50px auto;
+      padding: 0px;
+      font-family: 'Nanum Gothic', sans-serif;
+      z-index: 8;
+}
+
+#content h2 {
+      font-size: 28px;
+      margin-bottom: 40px;
+      color: #666;
+      text-align: right;
+      padding-top: 10px;
+      margin-right: 20px;
+}
+
+#content h2::before {
+      content: '';
+      position: absolute;
+      top: 190px;
+      left: 50%;
+      width: 744px;
+      height: 1px;
+      margin-left: -375px;
+      background: #e9e9e9;
+}
+
+#content .window {
+      background-color: white;
+      padding: 20px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+      margin-top: 50px; width: 700px;
+}
+
+th,
+td {
+      border: 1px solid rgb(255, 255, 255);
+      padding: 10px
+}
+
+th {
+      width: 50px
+}
+
+td {
+      width:150px
+}
+
+input,
+select {
+      padding: 5px;
+      border-radius: 2px;
+      font-size: 1em;
+      border: 0;
+      background: #f1f1f1;
+      width: 280px;
+}
+
+.hp {
+      padding: 5px;
+      border-radius: 2px;
+      font-size: 1em;
+      border: 0;
+      background: #f1f1f1;
+      width: 80px;
+}
+
+#email2 {
+      width: 96px;
+}
+
+#email1 {
+      width: 150px;
+}
+
+table tr:last-child td {
+      padding: 20px 0; text-align: center; width: 100%;
+}
+
+#button_ok {
+      display: inline-block;
+      width: 50%;
+      line-height: 24px;
+      padding: 8px 0;
+      border: none;
+      background: rgb(78, 136, 245);
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 0 5px;
+      text-align: center;
+}
+
+#button_cancel {
+      text-align: center;
+      display: inline-block;
+      width: 20%;
+      line-height: 24px;
+      padding: 8px 0;
+      border: none;
+      background: #999;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 0 5px;
+}
+
+#button_index {
+      text-align: center;
+      display: inline-block;
+      width: 20%;
+      line-height: 24px;
+      padding: 8px 0;
+      border: none;
+      background: rgb(255, 255, 255);
+      color: #333;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid #333;
+      margin: 0 5px;
+}

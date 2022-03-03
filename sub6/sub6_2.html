@@ -1,0 +1,60 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-기업개요</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+
+</head>
+<body>
+
+    <section id="loginPage">
+        <div class="log_container">
+            <div class="login-body">
+                <div class="login-header">
+                    <img class="logo" src="./images/logo.png" alt="logo">
+                </div>
+                
+                <div class="login-body">
+                    <input type="text" class="textPropp" id="searchName" name="searcgName" placeholder="아이디" value="" style="width: 300px; height: 30px;">
+                    <input type="password" class="textPropp" id="searchName" name="searcgName" placeholder="비밀번호" value="" style="width: 300px; height: 30px;">
+                    
+                </div>
+                
+                <button type="submit" class="btn-login"> 로그인</button>
+                
+                <div class="idpwLost">
+                    
+                </div>
+                
+                <div class="login-footer" >
+                    <p>학습지원문의 1588-1111</p>
+                    <p>평일 08:00 ~ 21:00 토/일 공휴일 09:00~12:00, 13:00~18:00</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+</body>
+
+</html>

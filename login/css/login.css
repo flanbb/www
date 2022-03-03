@@ -1,0 +1,5 @@
+#content{position:relative; background: url(./images/bg_w_.png) ; height: 1000px ; background-size: cover ; font-family: 'Noto Sans KR', sans-serif;}
+#content h2{font-size: 1.75rem; text-align:center;}
+#content .wrap {width:600px;  background-color: white ;text-align:center;box-shadow:10px 10px 20px rgba(0,0,0,0.2); position:relative; top:40%; left:50%; margin-left:-300px; }
+#id_pw_input .login_input { height: 50px;}
+#login_button { height: 100px;}

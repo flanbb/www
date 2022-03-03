@@ -1,0 +1,292 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-기업개요</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=015f48d382d1f97bfffb4468d8c9321e"></script>
+    <script src="./js/map2.js"></script>
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slide_move.js"></script>
+
+
+
+</head>
+<body>
+
+    <? include "../common/sub_header.html" ?>
+
+    <div class="visual">
+        <img src="./common/images/sub3_visual.jpg" alt="visual">    
+        <h3>기술연구</h3>
+        <p>Daewoo Shipbuilding Technology & Research </p>
+
+    </div>
+
+    <div class="sub_menu">
+        <ul>
+            <li class="current"><a href="./sub3_1.html">연구소 소개</a></li>
+            <li><a href="./sub3_2.html">첨단 신기술</a></li>
+        </ul>
+    
+    </div>
+
+<article id="content">
+    <div class="title_area">
+        <div class="line_map"><i class="fas fa-home"></i> home   &gt;   기술 연구   &gt; <strong> 연구소 소개  </strong></div>
+        <h2>연구소 소개</h2>
+        <div class="content_bg"> </div> 
+    </div>
+
+ 
+
+
+
+    <!-- 콘텐츠 -->
+
+    <article class="content">
+
+   <!-- 중간메뉴 -->
+
+        <nav class="slideMenu">
+            <ul>
+                <li> <a class="link1" href="#con1"> 연구소 </a>
+                    <div class="c1">
+                        <div class="c2">
+                            <div class="c3">
+                            </div>
+                        </div>
+                    </div>
+                </li> 
+                <li><a class="link2" href="#con2"> 연구실적</a>
+                    <div class="c1">
+                        <div class="c2">
+                            <div class="c3">
+                            </div>
+                        </div>
+                    </div>
+                </li> 
+                <li> <a class="link3" href="#con3">위치안내 </a>
+                    <div class="c1">
+                        <div class="c2">
+                            <div class="c3">
+                            </div>
+                        </div>
+                    </div>
+                </li>  
+            </ul>
+        </nav>
+
+        <section  class="content03 con1">
+            <h3> DSME 연구소</h3>
+
+            
+           
+                <dl>
+                    <dt>선박해양 연구소</dt>
+                    
+                    <ul>
+                        <li>고효율 / 친환경 기술 연구개발</li> 
+                        <li>주력선종 구조 최적화 및 경량화 연구개발</li> 
+                        <li>진동 소음 저감장치 연구개발</li> 
+                        <li>선박 운항 경제성 제고 기술 연구개발</li> 
+                    </ul>    
+                    <dd>선박해양연구소는 선박 기본 성능 극대화를 위해 고성능, 고효율, 친환경 선박을 위한 연구개발을 수행하고 있습니다. </dd>
+                </dl>
+                <dl>
+                    <dt>특수성능 연구소</dt>
+                    
+                    <ul>
+                        <li>방산분야 핵심기술 연구개발</li> 
+                        <li>친환경 에너지 기술 연구개발</li> 
+                        <li>통합 자동화 시스템 연구개발</li> 
+                        <li>스마트십/자율운항 기술 연구개발</li> 
+                    </ul>
+                    <dd>특수성능연구소는 탈탄소화와 디지털화 실현을 위해 친환경 에너지와 스마트십을 연구개발하고 있습니다. 또한 한국 대형 조선소 최초의 해양 방산 전문 연구소로서 첨단 방산 제품∙함정 연구개발을 수행하고 있습니다.</dd>
+                </dl>
+                <dl>
+                    <dt>산업기술 연구소</dt>
+                    
+                    <ul>
+                        <li>용접기술 연구개발</li> 
+                        <li>자동화 시스템 연구개발</li> 
+                        <li>도장 기술 연구개발</li> 
+                        <li>스마트 제조 시스템 및 공정 최적화 연구개발</li> 
+                    </ul>  
+                    <dd>산업기술연구소는 첨단 생산 시스템 구축을 위해 융복합 기술을 응용한 생산기술 개발과 스마트 팩토리 구현에 대한 연구개발을 수행하고 있습니다.</dd>
+                </dl>
+                <div class="bg"> </div>
+           
+            
+        </section>
+
+
+        <section class="content01 con2">    
+            <h3>연구 실적</h3>    
+            <p>탈 산소화</p>
+            <div class="picture_1">
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/01.jpg" alt="연료절감장치"></a></dt>
+                    <dd><span>연료절감장치 (Energy Saving Device)</span></dd>  
+                    <dd>선체 주변 유체 흐름을 제어하여 선박의 연비를 향상시키는 장치</dd>                  
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/02.jpg" alt="공기윤활시스템"></a></dt>
+                    <dd><span>공기윤활시스템 (Air Lubrication System)</span></dd>         
+                    <dd>선체 바닥에 공기를 분사하여 표면 마찰 저항을 감소시키는 에너지 절감 장치</dd>             
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/03.jpg" alt="축발전기모터시스템"></a></dt>
+                    <dd><span>축발전기모터시스템 <br>(Shaft Generator Motor)</span></dd>
+                    <dd>선박 엔진과 프로펠러를 연결부의 축 회전으로부터 얻어진 에너지를 이용한 전력 생산 기술</dd>                    
+                </dl>
+            </div>
+
+            <p class="pr">디지털화</p>  
+            <div class="picture_2">
+                 
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/04.jpg" alt="스마트십 솔루션"></a></dt>
+                    <dd><span>스마트십 솔루션 (DS4)</span></dd> 
+                    <dd>최신의 정보통신 기술을 바탕으로 <br>경제성, 편리성, 안전성을 확보한 스마트선박을 구현하는 플랫폼</dd>                   
+                </dl>
+
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/05.jpg" alt="스마트야드"></a></dt>
+                    <dd><span>스마트야드 (Smart Shipyard)</span></dd>  
+                    <dd>지능화, 자동화, 정보화를 통해 야드와 관제센터를 연결한 야드</dd>                   
+                </dl>
+                <div class="bg"></div>
+            </div>
+           
+
+            <p>생산자동화</p> 
+            <div class="picture_1">
+                  
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/06.jpg" alt="무궤도 EG 용접 시스템"></a></dt>
+                    <dd><span>무궤도 EGW(Electro Gas Welding)  <br>용접 시스템</span></dd> 
+                    <dd>레일없이 철판을 수직/수평 방향으로 용접하는 장치로, 작업 시간을 기존보다 10% 이상 단축</dd> 
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/07.jpg" alt="포터블 용접로봇"></a></dt>
+                    <dd><span>협소/밀폐구역 용접용 <br> 포터블 용접로봇(CADDY, INDY)</span></dd>  
+                    <dd>이중선체 밀폐구역 및 쇄빙 협소구역 자동 용접 로봇</dd> 
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/08.jpg" alt="공기불요추진체계"></a></dt>
+                    <dd><span>공기불요추진체계 <br> (Air Independent Propulsion System)</span></dd>  
+                    <dd>잠항 중 공기 흡입 없이 발생시킨 전기를 통해 추진하는 체계</dd> 
+                </dl>
+            </div>
+        </section>
+           
+
+        <section class="map con3" >
+            <h3>위치 안내</h3>
+
+            <div>
+                <h4>중앙 연구원(시흥 R&D 캠퍼스)</h4>
+                <div id="map01" style="width:1200px;height:490px;"></div>            
+                <div class="map_come">
+             
+                    <dl>
+                        <dt>주소</dt>
+                        <dd> 경기 시흥시 정왕동 2555-5</dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt>전화번호</dt>
+                        <dd>02 - 2129 - 3518</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>팩스</dt>
+                        <dd>02 - 2232 - 2338</dd>
+                    </dl>
+
+
+                    <dl>
+                        <dt>오시는 길</dt>
+                        <dd>4호선 오이도역 하차후 23 99 43 번 버스 탑승 서울대 시흥 캠퍼스 연구동 하차</dd>
+                    </dl>
+                   
+                    <dl>
+                        <dt>버스</dt>
+                        <dd>11-2, 22, 32-1, 32, 66, 87-2, 1310, 1120, 1344, M6800 </dd>
+                    </dl>
+                </div>
+            </div>
+
+
+        
+           <div>
+                <h4>중앙 연구원(옥포 조선소)</h4>
+                <div id="map02" style="width:1200px;height:490px;"></div>            
+                <div class="map_come">
+                    
+                    <dl>
+                        <dt>주소</dt>
+                        <dd> 경남 거제시 아주동 229-1 대우조선해양</dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt>전화번호</dt>
+                        <dd>055 - 735 - 2114</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>팩스</dt>
+                        <dd>055 - 735 - 2114</dd>
+                    </dl>
+
+
+                    <dl>
+                        <dt>오시는 길</dt>
+                        <dd>대우조선 해양남문 대우로 교차로 에서 100m </dd>
+                    </dl>
+                   
+                    <dl>
+                        <dt>버스</dt>
+                        <dd>15-5, 30, 30-1, 32, 60, 88-1, 1110, 1200, 1544, M6400 </dd>
+                    </dl>
+               </div>
+
+            </div>
+        
+        </section>
+
+
+    </article>
+
+
+
+</article>
+
+
+
+<? include "../common/sub_footer.html"?>
+
+
+
+</body>
+</html>

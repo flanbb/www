@@ -1,0 +1,144 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-기업개요</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+ 
+
+</head>
+<body>
+
+    <? include "../common/sub_header.html"?>
+
+<div class="visual">
+    <img src="./common/images/sub2_visual.jpg" alt="visual">    
+    <h3>사업분야</h3>
+    <p>Daewoo Shipbuilding Business</p>
+
+</div>
+
+<div class="sub_menu">
+    <ul>
+        <li class="current"><a href="./sub2_1_1.html">상선 특수선</a></li>
+        <li><a href="./sub2_2.html">해양 플랜트</a></li>
+        <li><a href="./sub2_3.html">건조실적</a></li>
+    </ul>
+    
+</div>
+
+<article id="content">
+    <div class="title_area">
+        <div class="line_map"><i class="fas fa-home"></i> home   &gt;   사업분야   &gt; <strong>  상선 / 특수선  </strong></div>
+        <h2>상선 / 특수선</h2>
+        <div class="content_bg"> </div> 
+    </div>
+
+   
+
+    <!-- 콘텐츠 -->
+
+    <div class="content_area">
+       <div class="content_main">    
+            <h3>가스선</h3>    
+
+                <div class="circle">
+                    <a href="#"><i class="fas fa-chevron-left"></i></a>
+                
+                    <img src="./images/content1/main_01.jpg" alt="">
+                
+                    <a href="#"><i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="circle_bottom">
+                    <a href="#"><i class="fas fa-circle"></i></a>
+                    <a href="#"><i class="far fa-circle"></i></a>
+                    <a href="#"><i class="far fa-circle"></i></a>
+                </div>
+
+                <div class="textbox">
+                <p><span>세계 최고</span> 의 기술력을 자랑하는 가스선</p>
+                <p> LNG 운반선(LNG Carrier)은 천연가스를 압축/액화시켜 수송하는 용도의 선박입니다. <br>
+                    대우조선해양이 독자적으로 개발한 ‘LNG연료시스템 (FGSS)’과 ‘천연가스 재액화 장치(PRS)’ 등 LNG관련 기술 우위를 바탕으로 세계 최고 경쟁력을 보유하고 있습니다. </p>
+                </div>
+       </div>
+
+
+       <div class="content_sub">
+          
+            <div class="picture_1">
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/01.jpg" alt="가스선"></a></dt>
+                    <dd>가스선</dd>                    
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/02.jpg" alt="유조선"></a></dt>
+                    <dd>유조선</dd>                    
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/03.jpg" alt="컨테이너선"></a></dt>
+                    <dd>컨테이너선</dd>                    
+                </dl>
+            </div>
+
+            <div class="picture_2">
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/04.jpg" alt="자동차 운반선"></a></dt>
+                    <dd>자동차 운반선</dd>                    
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/05.jpg" alt="살물선"></a></dt>
+                    <dd>살물선</dd>                    
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/06.jpg" alt="여객선"></a></dt>
+                    <dd>여객선</dd>                    
+                </dl>
+            </div>
+
+            <div class="picture_3">
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/07.jpg" alt="잠수함"></a></dt>
+                    <dd>잠수함</dd>                    
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/08.jpg" alt="전투함"></a></dt>
+                    <dd>전투함</dd>                    
+                </dl>
+               
+                <dl>
+                    <dt><a href="#"><img src="./images/content1/09.jpg" alt="보조함"></a></dt>
+                    <dd>보조함</dd>                    
+                </dl>
+            </div>
+
+
+</article>
+
+
+
+<? include "../common/sub_footer.html"?>
+
+
+
+</body>
+</html>

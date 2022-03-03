@@ -1,0 +1,249 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업소개-기업개요</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <link href='./lib/main.min.css'>
+    <script src='./lib/main.min.js'></script>
+    <!-- <script>
+    
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+    
+        var dt = new Date();
+        var dYear = dt.getFullYear();
+        var dMonth = dt.getMonth()+1;
+        var dDay = dt.getDate();
+        var dDate = dYear+'-'+dMonth+'-'+dDay;
+    
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          headerToolbar: {
+            left: 'prevYear,prev,next,nextYear today',
+            center: 'title',
+            right: 'dayGridMonth,dayGridWeek,dayGridDay'
+          },
+          initialDate: dDate,
+          navLinks: true, // can click day/week names to navigate views
+          editable: true,
+          dayMaxEvents: true, // allow "more" link when too many events
+          events: [
+            {
+              title: 'All Day Event',
+              start: '2021-12-01'
+            },
+            {
+              title: 'Long Event',
+              start: '2021-12-07',
+              end: '2021-12-10'
+            },
+            {
+              groupId: 999,
+              title: 'Repeating Event',
+              start: '2021-12-09T16:00:00'
+            },
+            {
+              groupId: 999,
+              title: 'Repeating Event',
+              start: '2021-12-16T16:00:00'
+            },
+            {
+              title: 'Conference',
+              start: '2021-12-11',
+              end: '2021-12-13'
+            },
+            {
+              title: 'Meeting',
+              start: '2021-12-12T10:30:00',
+              end: '2021-12-12T12:30:00'
+            },
+            {
+              title: 'Lunch',
+              start: '2021-12-12T12:00:00'
+            },
+            {
+              title: 'Meeting',
+              start: '2021-12-12T14:30:00'
+            },
+            {
+              title: 'Happy Hour',
+              start: '2021-12-12T17:30:00'
+            },
+            {
+              title: 'Dinner',
+              start: '2021-12-12T20:00:00'
+            },
+            {
+              title: 'Birthday Party',
+              start: '2021-12-13T07:00:00'
+            },
+            {
+              title: 'Click for Google',
+              url: 'http://google.com/',
+              start: '2021-12-28'
+            }
+          ]
+        });
+    
+        calendar.render();
+      });
+    </script> -->
+
+</head>
+<body>
+
+    <? include "../common/sub_header.html"?>
+
+<div class="visual">
+    <img src="./common/images/sub5_visual.jpg" alt="visual">    
+    <h3>홍보센터</h3>
+    <p>Daewoo Shipbuilding Comunications </p>
+
+</div>
+
+<div class="sub_menu">
+    <ul>
+        <li class="current"><a href="./sub5_1.html">방문신청</a></li>
+        <li><a href="./sub5_2.html">FAQ</a></li>
+        <li><a href="../greet/list.php">게시판</a></li>
+        <li><a href="../concert/list.php">홍보센터</a></li>
+    </ul>
+    
+</div>
+
+<article id="content">
+    <div class="title_area">
+        <div class="line_map"><i class="fas fa-home"></i> home   &gt;   홍보센터   &gt; <strong> 방문신청  </strong></div>
+        <h2>방문신청</h2>
+        <div class="content_bg"> </div> 
+    </div>
+
+    <!-- 중간메뉴 추후 추가 -->
+
+    <!-- 콘텐츠 -->
+
+    <div class="content_area">
+        <section class="content01">
+            <h3>신청페이지</h3>
+            <div class="con01">세계최고 품질의 선박을 건조하는 대우조선해양 견학은 온라인을 통해 신청하실 수 있습니다.</span> <br>
+                견학신청은  <span class="blue">방문일 3개월 전부터 최소 4일전까지 선착순</span> 신청 가능하며, <br> 조선소 일정에 따라 견학 일정을 조정할 경우 시, <span class="blue">사전에 통보해드립니다.</span></div>
+            
+            <div class="cal">
+                <div class="date">
+                    <ul>
+                        <li>SUN</li>
+                        <li>MON</li>
+                        <li>TUE</li>
+                        <li>WED</li>
+                        <li>THU</li>
+                        <li>FIR</li>
+                        <li>SAT</li>
+                    </ul>
+                </div>
+                <p>코로나 19 바이러스 확산에 대비하여 <br> 당사 견학을 잠정 중단합니다.</p>
+            </div>
+
+            
+<!--                 
+            <div class="calendar_box">
+                <div id='calendar'>
+            
+                </div>
+            </div>  -->
+
+
+
+
+
+            <table class="con02">
+                <thead>
+                    <tr>
+                        <th colspan="2">상세 안내</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>방문가능일</td>
+                        <td>월~금 (토, 일, 공휴일 제외)</td>
+                    </tr>
+                    <tr>
+                        <td>방문시간</td>
+                        <td>09:00~15:00 (12:00~13:00 제외)</td>
+                    </tr>
+                    <tr>
+                        <td>소요시간</td>
+                        <td>30분</td>
+                    </tr>
+                    <tr>
+                        <td>견학단위</td>
+                        <td>단체와 개인으로 구분됩니다.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <dl class="con03">
+                <dt>개인/가족 견학</dt>
+                <dd>한가족당 10명이하만 신청가능합니다.(단. 해당신청시간대에 총 신청인원이 10명미만일 경우, 해당시간 투어는 자동취소되며, 취소시 사전에 문자 또는 전화로 안내드립니다.)
+                    회사 셔틀버스를 이용 <br>
+                    <span class="org"> 평일 10시, 14시 </span> 에만 실시 (각 시간대별 30분 소요)</dd>
+            </dl>
+
+            <dl class="con03">
+                <dt>단체 견학</dt>
+                <dd>단체 : 25인승 이상 버스 이용 시(승용차,승합차는 투어 불가) <br>
+                    각 시간대 <span class="org"> 견학가능 버스는 3대 </span> 
+                    3대 이상의 단체견학은 1시간 간격으로 2대 이상 조로 나눠 신청</dd>
+            </dl>
+                        
+            <div class="clear"></div>
+
+            <ul class="con05">
+                
+
+                <dt>주의 사항</dt>
+                <dd>
+                <li> <span class="org">외국인은 견학이 불가합니다.(Foreigners are not allowed to visit.) </span> </li>
+
+                <li>견학 10분전까지 대우조선소 정문으로 도착해 주시고, 주차장은 정문 맞은편에 있습니다.</li>
+                <li>견학 중 yard 내 지정된 장소 외 사진 촬영이 불가 합니다.</li>
+                <li><span class="org"> 견학 신청 시 여행사를 통한 대리접수가 불가하오니 이점 양해 부탁 드립니다. </span> </li>
+                <li>음주 후 견학은 불가능하며, 견학 취소가 될 수 있습니다.</li>
+                <li>견학 진행 중 안전수칙위반, 질서문란 행위, 음주, 성희롱 등의 사고가 일어날 경우 견학은 즉시 중단 될 수 있습니다.</li>
+                <li>취소시에는 반드시 전화로 취소해 주시기 바랍니다.</li>
+                <li>예약문의 : 09:00~16:00 / 055-735-2397, 2398 <br>
+                    16:00 이후 / 055-735-2100 <br>
+                    E-mail : welcome@dsme.co.kr</li>
+                </dd>
+            </ul>
+    
+        </section>
+
+   </div>
+
+
+
+</article>
+
+
+
+
+
+
+
+<? include "../common/sub_footer.html"?>
+</body>
+</html>
