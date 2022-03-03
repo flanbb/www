@@ -1,0 +1,52 @@
+/*폰트 연결*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* 
+/*비주얼 공통*/
+
+
+
+#wrap .visual {background: url(../images/visual_06.png) no-repeat center; position: relative; margin-top: 0px; margin-bottom: 30px; height: 100px; width: 100%;
+background-size: cover; margin-top: 50px; }
+#wrap .visual h3 {position: absolute; top:44px; font-size: 1.2rem;text-align: center;color: aliceblue; width: 100%; font-weight: bold;}
+#wrap .visual p{ position: absolute; top:68px;font-size: .7rem; color: aliceblue; 
+  width: 100%; text-align: center;}
+
+#content{font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+#content .title{text-align: center; font-size: 25px; font-weight: 500; margin-bottom: 10px;}
+#content .sub_text{text-align: center; font-size: 16px; line-height: 1.8em; width: 100%; }
+
+ 
+ 
+/* sub.css */
+
+#content .content01 h4{font-family: 'Noto Sans KR', sans-serif; font-weight:400; text-align: center; font-size: 1.5rem; margin-bottom: 10px;}
+#content .content01 p{ text-align: center; font-size: .9rem; margin-bottom: 30px;font-weight:500; letter-spacing:-0.065rem; }
+#content .content01 span {color: #0066b3;}
+#content .content01 img {width: 100%; }
+#content .content01 text {font-family:돋움, Dotum; font-size: .7rem; text-align: justify; letter-spacing: -0.6em;}
+
+
+#content .content01  .career {width:100%; 
+    box-sizing:border-box; background-color: #ffffff;  margin-bottom: 20px;}
+
+#content .content01  .career .text{  padding:60px 0 50px 30px; text-align: center; }
+#content .content01  .career .text dl + dl{margin:25px 0 25px;}
+#content .content01  .career .text dl dt{font-size: .8rem;color:#0066b3; font-weight:700; letter-spacing:-0.065rem;margin:0 0 40px 0  ; font-size: 1.2rem;}
+#content .content01  .career .text dl dd{font-size: .9rem; line-height: 1.75; color:rgb(150, 150, 150); margin-right: 40px;  }
+#content .content01  .career .text dd span{display:inline-block; width: 65px; color:#333; font-weight:700; }
+
+#content .content01  .career p a{ display: block; margin: 0 auto; padding: 10px 0 ; background-color: #0089CF; width: 95%; margin-top: 10px; margin-bottom: 10px; color: #ffffff;
+border-radius: 5px;}
+
+
+/* 분석해야함 오른쪽 마진이 생겨버림
+#content .content01 .textbox0 p {font-family: 'Noto Serif KR', serif;  } */
+/* #content .content01 .career .text01 {width:100%;}
+
+#content .content01 .career .text01 dl dt{font-weight:700; font-size: 20px;text-align: justify;  margin-bottom: 40px; margin-right: 70px;}
+#content .content01 .career .text01 dl dd{ text-align: justify; margin-right: 70px; }
+ */
+
+

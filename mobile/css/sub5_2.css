@@ -1,0 +1,39 @@
+/*폰트 연결*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* 
+/*비주얼 공통*/
+
+
+
+#wrap .visual {background: url(../images/visual_06.png) no-repeat center; position: relative; margin-top: 0px; margin-bottom: 30px; height: 100px; width: 100%;
+background-size: cover; margin-top: 50px; }
+#wrap .visual h3 {position: absolute; top:44px; font-size: 1.2rem;text-align: center;color: aliceblue; width: 100%; font-weight: bold;}
+#wrap .visual p{ position: absolute; top:68px;font-size: .7rem; color: aliceblue; 
+  width: 100%; text-align: center;}
+
+#content{font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+#content .title{text-align: center; font-size: 25px; font-weight: 500; margin-bottom: 10px;}
+#content .sub_text{text-align: center; font-size: 16px; line-height: 1.8em; width: 100%; }
+
+ 
+ 
+/* sub.css */
+#content .content01 {margin-bottom: 20px;}
+#content .content01 h4{font-family: 'Noto Sans KR', sans-serif; font-weight:400; text-align: center; font-size: 1.5rem; margin-bottom: 10px;}
+#content .content01 p{ text-align: center; font-size: .9rem; margin-bottom: 30px;font-weight:500; letter-spacing:-0.065rem; }
+#content .content01 span {color: #0066b3;}
+#content .content01 img {width: 100%; }
+
+#content .content01 p:nth-of-type(2){font-size: 1rem; line-height: 1.75rem; color:rgb(63, 63, 63); text-align: justify; width: 90%; margin: 0 auto; margin-bottom: 30px;}
+
+
+#content .career img {width: 100%; margin-bottom: 10px; }
+#content  .career {width: 90%; margin:  0 auto;}
+#content  .career .text {font-size: 1rem; line-height: 1.75rem; color:rgb(150, 150, 150); text-align: justify; }
+#content  .career .text li {padding: 1px 0 ;}
+
+
+#content  .content01 >p> a{ display: block; margin: 0 auto; padding: 10px 0 ; background-color: #0089CF; width: 95%; margin-top: 10px; margin-bottom: 10px; color: #ffffff;
+  border-radius: 5px;}
